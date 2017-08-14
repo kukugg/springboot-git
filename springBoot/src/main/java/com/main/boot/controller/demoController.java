@@ -14,6 +14,7 @@ public class demoController {
        Demo demo = new Demo();
        demo.setId(1);
        demo.setName("Angel");
+       System.out.println(1);
        return demo;
 
     }
