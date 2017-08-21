@@ -1,5 +1,6 @@
 package com.main.boot.bean;
 
+
 public class Demo {
 	
 	private long id;
