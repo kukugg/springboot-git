@@ -36,7 +36,7 @@ public class MyFilter implements Filter{
 	@Override
 	public void doFilter(ServletRequest arg0, ServletResponse arg1,
 			FilterChain arg2) throws IOException, ServletException {
-			System.out.println("执行过滤操作");
+		//	System.out.println("执行过滤操作");
 			arg2.doFilter(arg0, arg1);
 	}
 	
